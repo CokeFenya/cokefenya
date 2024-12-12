@@ -9,6 +9,7 @@
 [![VK](https://img.shields.io/badge/-Vkontakte-4680C2?style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/cokefenya)
 [![Telegram](https://img.shields.io/badge/-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/CokeFenya)  
 Discord: CokeFenya
+
 ---
 
 ## 🛠 Технологии:
@@ -24,6 +25,8 @@ Discord: CokeFenya
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Express](https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Nodemailer](https://img.shields.io/badge/-Nodemailer-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white)
 
 ---
 
@@ -41,5 +44,3 @@ Discord: CokeFenya
 ![Твоя Статистика GitHub](https://github-readme-stats.vercel.app/api?username=CokeFenya&show_icons=true&theme=dark)
 
 ![Топ Языков](https://github-readme-stats.vercel.app/api/top-langs/?username=CokeFenya&layout=compact&theme=dark)
-
----
