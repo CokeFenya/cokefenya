@@ -1,14 +1,17 @@
 # Привет! Я CokeFenya 👋
 
-Я простой веб-разработчик, увлечённый созданием современных, масштабируемых и функциональных веб-приложений. Специализируюсь на работе с фронтендом и бэкендом, используя передовые технологии и подходы для создания качественных продуктов. Всегда стремлюсь к чистому коду, отзывчивым интерфейсам и лучшим практикам разработки. Открыт для новых вызовов и возможностей для роста!
+Я простой веб-разработчик, увлечённый созданием современных, масштабируемых и функциональных веб-приложений.  
+Специализируюсь на работе с фронтендом и бэкендом, используя передовые технологии и подходы для создания качественных продуктов.  
+Всегда стремлюсь к чистому коду, отзывчивым интерфейсам и лучшим практикам разработки.  
+Открыт для новых вызовов и возможностей для роста!  
 
 ---
 
 ## 📫 Свяжитесь со мной:
 
-[![VK](https://img.shields.io/badge/-Vkontakte-4680C2?style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/cokefenya)
+[![VK](https://img.shields.io/badge/-Vkontakte-4680C2?style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/cokefenya)  
 [![Telegram](https://img.shields.io/badge/-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/CokeFenya)  
-Discord: CokeFenya
+**Discord:** CokeFenya  
 
 ---
 
@@ -20,6 +23,8 @@ Discord: CokeFenya
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Apollo](https://img.shields.io/badge/-Apollo-311C87?style=for-the-badge&logo=apollographql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
