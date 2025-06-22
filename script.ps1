@@ -20,4 +20,4 @@ $notifier = [Windows.UI.Notifications.ToastNotificationManager]::CreateToastNoti
 $notifier.Show($toast)
 
 # Вывести в консоль
-Write-Host "Привет!"
+Write-Host "Привет!2"
