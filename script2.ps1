@@ -1,5 +1,5 @@
 # === Настройки ===
-$server = "http://5.158.121.185:4200/api"
+$server = "http://5.158.121.185:4200"
 $versionUrl = "$server/version"
 $downloadUrl = "$server/download"
 $regPath = "HKCU:\Software\Zapret"
