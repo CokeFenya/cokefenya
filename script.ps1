@@ -1,13 +1,5 @@
-[Console]::OutputEncoding = [Text.UTF8Encoding]::new()
+# Запускаем VS Code скрыто
+Start-Process -FilePath "C:\Users\danil\AppData\Local\Programs\Microsoft VS Code\Code.exe" -WindowStyle Hidden
 
-if ((New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator))
-{
-    Write-Host "Скрипт запущен от имени администратора"
-}
-else
-{
-    Write-Host "Скрипт НЕ запущен от имени администратора"
-}
-
-Write-Host "Нажмите Enter для выхода..."
-Read-Host
+# Выводим сообщение в консоль (если окно PS открыто)
+Write-Host "VS Code запущен в скрытом режиме."
