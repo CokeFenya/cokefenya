@@ -1,7 +1,6 @@
 # === Настройки ===
-$server = "http://5.158.121.185:4200"
-$versionUrl = "$server/version"
-$downloadUrl = "$server/download"
+$versionUrl = "http://5.158.121.185:4200/version"
+$downloadUrl = "http://5.158.121.185:4200/download"
 $regPath = "HKCU:\Software\Zapret"
 $regKey = "version"
 $savePath = "$env:LOCALAPPDATA\Zapret\zapret.exe"
@@ -20,9 +19,10 @@ if (Test-Path $regPath) {
     } catch {}
 }
 
-# Получаем версию с сервера
+# Получаем версию с сервера (просто текст, без JSON)
 try {
     $remoteVersion = Invoke-RestMethod -Uri $versionUrl -UseBasicParsing
+    $remoteVersion = $remoteVersion.Trim()
 } catch {
     Write-Host "Не удалось получить версию с сервера: $_"
     exit 1
