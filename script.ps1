@@ -1,23 +1,8 @@
-# Вывести уведомление в Windows 10/11
-[Windows.UI.Notifications.ToastNotificationManager, Windows.UI.Notifications, ContentType = WindowsRuntime] > $null
+# Создаем COM объект WScript.Shell
+$shell = New-Object -ComObject WScript.Shell
 
-$template = @"
-<toast>
-  <visual>
-    <binding template='ToastGeneric'>
-      <text>Сообщение от скрипта</text>
-      <text>Привет! Скрипт успешно запущен.</text>
-    </binding>
-  </visual>
-</toast>
-"@
+# Отображаем всплывающее уведомление (текст в трее)
+$shell.Popup("Привет! Скрипт успешно запущен.", 5, "Сообщение от скрипта", 64)
 
-$xml = New-Object Windows.Data.Xml.Dom.XmlDocument
-$xml.LoadXml($template)
-
-$toast = [Windows.UI.Notifications.ToastNotification]::new($xml)
-$notifier = [Windows.UI.Notifications.ToastNotificationManager]::CreateToastNotifier("ScriptPS1")
-$notifier.Show($toast)
-
-# Вывести в консоль
-Write-Host "Привет!2"
+# Вывод в консоль
+Write-Host "Привет!"
