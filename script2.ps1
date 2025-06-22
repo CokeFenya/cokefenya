@@ -1,4 +1,4 @@
-$path = "C:\Users\danil\Desktop\test.txt"
+$path = "C:\Users\danil\Desktop\test2.txt"
 
 # Проверяем, запущен ли скрипт от имени администратора
 $isAdmin = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
