@@ -1,5 +1,7 @@
-# Запускаем VS Code скрыто
-Start-Process -FilePath "C:\Users\danil\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+$path = "C:\Users\danil\Desktop\test.txt"
+$content = "Это тестовый файл, созданный PowerShell."
 
-# Выводим сообщение в консоль (если окно PS открыто)
-Write-Host "VS Code запущен в скрытом режиме."
+# Создаём (или перезаписываем) файл с указанным содержимым
+Set-Content -Path $path -Value $content
+
+Write-Host "Файл test.txt успешно создан на рабочем столе."
